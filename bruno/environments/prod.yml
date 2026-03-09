@@ -1,0 +1,4 @@
+name: prod
+variables:
+  - name: BASE_URL
+    value: https://crossbar.switchboard.xyz

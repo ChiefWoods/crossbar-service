@@ -1,0 +1,15 @@
+info:
+  name: fetch v2
+  type: http
+  seq: 3
+
+http:
+  method: GET
+  url: "{{BASE_URL}}/v2/fetch/0xb041e05090587c8cbecf27ff3e573d23384bd5fbd1595c8549f3efde88347750"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

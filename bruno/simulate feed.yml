@@ -1,0 +1,15 @@
+info:
+  name: simulate feed
+  type: http
+  seq: 4
+
+http:
+  method: GET
+  url: "{{BASE_URL}}/simulate/0x4cd1cad962425681af07b9254b7d804de3ca3446fbfd1371bb258d2c75059812"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
