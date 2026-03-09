@@ -1,6 +1,7 @@
 services:
   crossbar:
     image: switchboardlabs/rust-crossbar:stable
+    platform: linux/amd64
     ports:
       - "8080:8080"  # HTTP API
       - "8081:8081"  # WebSocket
